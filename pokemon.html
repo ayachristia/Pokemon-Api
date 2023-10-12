@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <header>
+        <section class="logo">
+            <img src="img/International_Pokémon_logo.svg.png" alt="logo">
+        </section>
+    </header>
+
+    <main>
+
+        <section class="pokeDex_container_wrap_left">
+            <section class="pokeDex_container_left">
+                <section class="btn_lights">
+                    <button class="btn_1"></button>
+                    <button class="btn_2"></button>
+                    <button class="btn_3"></button>
+                    <button class="btn_4"></button>
+                </section>
+                <section class="poke_spot_wrap3">
+                    <section class="poke_spot_wrap2">
+                        <section class="poke_spot_wrap">
+                            <section class="poke_spot">
+                                <section class="top_spots">
+                                    <button class="top_spot_btn1"></button>
+                                    <button class="top_spot_btn1"></button>
+                                </section>
+
+                                <section class="poke_image">
+                                    <div class="spinner"></div>
+                                </section>
+
+                                <section class="poke_image_sub">
+                                    <button class="poke_spot_btn"></button>
+                                    <img src="img/246-2462231_four-lines-interface-symbol-png-icon-free-four.png" alt=""
+                                        id="img_spot_lines">
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <section class="search_box1">
+                    <section class="search_box2">
+                        <section class="search_box_buttons">
+                            <button class="search_box_btn1"></button>
+                            <button class="search_box_btn2"></button>
+                            <button class="search_box_btn3"></button>
+                        </section>
+                        <form action="pokemon.html" class="searchForm" autocomplete="off">
+                            <input type="search" list="pokemons" name="name" class="pokemon_search">
+                            <datalist id="pokemons">
+                            </datalist>
+                            <button type="submit">Søg</button>
+                        </form>
+                    </section>
+                    <img src="img/button.png" alt="pokeButton" class="poke_btn">
+                </section>
+            </section>
+        </section>
+
+        <section class="pokeDex_container_wrap_right2">
+            <section class="pokeDex_container_wrap_right">
+                <section class="pokeDex_container_right">
+                    <section class="poke_info">
+                        <h1>Specifications</h1>
+                        <div class="pokemon">
+                        </div>
+                    </section>
+                    <section class="poke_info_btns">
+                        <section class="poke_info_top_btns">
+                            <section class="joint_btns">
+                                <button class="joint_btn"></button>
+                                <button class="joint_btn"></button>
+                            </section>
+                            <button class="round_btn"></button>
+                        </section>
+                        <section class="poke_info_bottom_btns">
+                            <button class="prev_btn"><a href="/index.html">Back to Poke Dex!!</a></button>
+                            <button class="next_btn"></button>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+
+       
+    </main>
+
+    <footer></footer>
+    <script src="pokemon.js" defer></script>
+</body>
+
+</html>
