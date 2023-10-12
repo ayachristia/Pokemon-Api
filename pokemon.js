@@ -32,9 +32,9 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${URL.get("name")}`)
 
         POKE_IMAGE.innerHTML =
             `
-            <section class ="pokeName_pokeId">
-            <h1 class="pokeName">${data.name.toUpperCase()}</h1>
-            <p>Nr/${data.id}</p>
+            <section class ="pokeBox">
+            <h1 class="pokeName">${data.name}</h1>
+            <p class="pokeName">Nr/${data.id}</p>
             </section>
             <span class="imagePlaceholder">
             <img src="img/1574006.png" class="placeholderImg">
