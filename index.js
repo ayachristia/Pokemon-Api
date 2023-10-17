@@ -34,7 +34,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon?limit=14&offset=${OFFSET}`) //unresolve
         const UL = document.querySelector(".pokeList")
         data.results.forEach(function (result) {
             const LI = document.createElement("li")
-            LI.innerHTML = `<a href="/pokemon.html?name=${result.name}">${result.name}</a>`
+            LI.innerHTML = `<a href="/Pokemon-Api/pokemon.html?name=${result.name}">${result.name}</a>`
             UL.append(LI)
         })
 
